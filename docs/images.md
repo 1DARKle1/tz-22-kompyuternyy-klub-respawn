@@ -11,7 +11,7 @@
 | img/zone-bootcamp.jpg | Иллюстрация комнаты bootcamp |
 | img/zone-ps5.jpg | Иллюстрация зоны PlayStation 5 |
 | img/video-poster.jpg | Кадр к блоку «Видео клуба» |
-| docs/qr-u-12.png | QR строки U-12. Пока ведёт на YOUR-PROJECT.vercel.app, после публикации адрес нужно заменить и пересобрать |
+| docs/qr-u-12.png | QR строки U-12, ведёт на страницу цен с метками campus_qr |
 | files/club-rules.pdf | Текст правил клуба по разделу 2 ТЗ |
 | files/winter-cup.pdf | Регламент «Зимнего кубка» |
-| docs/afisha.pdf | Черновик афиши A4 с QR. Тот же черновой адрес, что у QR |
+| docs/afisha.pdf | Афиша A4 с QR на страницу цен |

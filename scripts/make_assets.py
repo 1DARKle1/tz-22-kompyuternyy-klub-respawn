@@ -5,7 +5,7 @@ import pymupdf
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parents[1]
-SITE = "https://YOUR-PROJECT.vercel.app"
+SITE = "https://tz-22-kompyuternyy-klub-respawn.vercel.app"
 QR_URL = (
     SITE
     + "/prices.html?utm_source=campus_qr&utm_medium=qr"
@@ -134,7 +134,7 @@ def make_pdfs():
         "Заявку подаёт капитан через форму на сайте. В составе команды 5 игроков. Время брони места в заявке на турнир не указывается.",
         "Участник финала соблюдает правила клуба: вход с 14 лет, ночной формат — с 18 лет. Бронь места, если она нужна отдельно от турнира, держится 15 минут после начала.",
     ]
-    afisha = "Сканируйте код: дневная скидка и цены. Кампания respawn_nov_2026. Черновик: в QR пока стоит YOUR-PROJECT.vercel.app. После публикации замените адрес. +7 (900) 222-02-22"
+    afisha = "Сканируйте код: дневная скидка и цены. Кампания respawn_nov_2026. tz-22-kompyuternyy-klub-respawn.vercel.app +7 (900) 222-02-22"
     alphabet = afisha + "RESPAWNБудни до 14:00 −30 %Стандарт VIP · ₽/часТЦ «Орбита» этаж " + "".join(rules + cup)
     regular = ROOT / "files" / "arial-subset.ttf"
     bold = ROOT / "files" / "arialbd-subset.ttf"
@@ -163,8 +163,8 @@ def make_qr():
     page.insert_text((40, 260), "ТЦ «Орбита», 3 этаж. +7 (900) 222-02-22", fontname="arial", fontsize=14, color=(0.1, 0.1, 0.15))
     page.insert_image(pymupdf.Rect(40, 300, 280, 540), filename=str(qr_path))
     page.insert_text((40, 580), "Сканируйте код: дневная скидка и цены.", fontname="arial", fontsize=13, color=(0.1, 0.1, 0.15))
-    page.insert_text((40, 610), "Кампания respawn_nov_2026. Черновик: в QR пока стоит", fontname="arial", fontsize=11, color=(0.2, 0.2, 0.25))
-    page.insert_text((40, 628), "YOUR-PROJECT.vercel.app. После публикации замените адрес.", fontname="arial", fontsize=11, color=(0.2, 0.2, 0.25))
+    page.insert_text((40, 610), "Кампания respawn_nov_2026", fontname="arial", fontsize=11, color=(0.2, 0.2, 0.25))
+    page.insert_text((40, 628), "tz-22-kompyuternyy-klub-respawn.vercel.app", fontname="arial", fontsize=11, color=(0.2, 0.2, 0.25))
     doc.save(docs / "afisha.pdf", deflate=True, garbage=4)
     doc.close()
     print("afisha.pdf", (docs / "afisha.pdf").stat().st_size)
