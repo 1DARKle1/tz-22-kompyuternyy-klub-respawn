@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Зоны — компьютерный клуб «Респаун»</title>
+  <meta name="description" content="Стандарт на RTX 4060, VIP на RTX 4080, комната bootcamp и PlayStation 5. Цены и характеристики зон клуба «Респаун».">
+  <meta property="og:title" content="Зоны — компьютерный клуб «Респаун»">
+  <meta property="og:description" content="Стандарт на RTX 4060, VIP на RTX 4080, комната bootcamp и PlayStation 5. Цены и характеристики зон клуба «Респаун».">
+  <meta property="og:image" content="img/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <link rel="icon" href="img/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;family=Orbitron:wght@600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+</head>
+<body>
+<a class="skip" href="#main">К содержанию</a>
+<header class="site-header">
+  <div class="wrap header-bar">
+    <a class="logo" href="index.html">RE<span>SPAWN</span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Меню</button>
+    <nav id="site-nav" class="site-nav" aria-label="Страницы клуба">
+      <a href="index.html">Главная</a>
+      <a href="zones.html" aria-current="page">Зоны</a>
+      <a href="prices.html">Цены</a>
+      <a href="games.html">Игры</a>
+      <a href="tournament.html">Турнир</a>
+      <a href="reaction.html">Реакция</a>
+      <a href="contacts.html">Бронь</a>
+    </nav>
+    <a class="header-phone" href="tel:+79002220222" data-event="contact_click" data-contact-type="phone">+7 (900) 222-02-22</a>
+  </div>
+</header>
+<main id="main">
+
+<section class="block">
+  <div class="wrap">
+    <h1>Зоны</h1>
+    <p class="lead">Характеристики указаны как в зале: видеокарта и частота монитора. Жми на карточку, потом бронируй выбранную зону.</p>
+    <ul class="zone-grid">
+      <li class="zone-card" id="standard"><a href="#standard" data-event="zone_view" data-zone="standard" data-zone-pick="standard"><img src="img/zone-standard.jpg" width="960" height="640" alt="Иллюстрация зоны Стандарт: монитор и системный блок"><h2>Стандарт</h2></a><p>Бери это место, если хочешь играть в общем зале. RTX 4060 и монитор 165 Гц. Таких мест сорок, час — 150 ₽ за место.</p></li>
+      <li class="zone-card" id="vip"><a href="#vip" data-event="zone_view" data-zone="vip" data-zone-pick="vip"><img src="img/zone-vip.jpg" width="960" height="640" alt="Иллюстрация зоны VIP: широкий монитор и кресло"><h2>VIP</h2></a><p>Бери VIP, если важен каждый кадр. RTX 4080, монитор 240 Гц и кресло премиум. 12 мест, 250 ₽ в час за место.</p></li>
+      <li class="zone-card" id="bootcamp"><a href="#bootcamp" data-event="zone_view" data-zone="bootcamp" data-zone-pick="bootcamp"><img src="img/zone-bootcamp.jpg" width="960" height="640" alt="Иллюстрация комнаты bootcamp на пять мест"><h2>Bootcamp</h2></a><p>Закройтесь впятером и не делите эфир с залом. Комната на 5 мест, 1 100 ₽ в час за всю комнату.</p></li>
+      <li class="zone-card" id="ps5"><a href="#ps5" data-event="zone_view" data-zone="ps5" data-zone-pick="ps5"><img src="img/zone-ps5.jpg" width="960" height="640" alt="Иллюстрация зоны PlayStation 5 с большим телевизором"><h2>PlayStation 5</h2></a><p>Садитесь к одному экрану до четырёх человек. PlayStation 5 и телевизор 65 дюймов, 400 ₽ в час.</p></li>
+    </ul>
+  </div>
+</section>
+<section class="block">
+  <div class="wrap">
+    <a id="zone-book" class="btn" href="contacts.html?lead_type=booking" data-event="cta_click" data-button-name="zones_booking" data-page-section="zones">Забронировать</a>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <p class="logo">RE<span>SPAWN</span></p>
+      <p>ООО «Респаун»</p>
+      <p>614 122, г. Новоозёрск, ул. Студенческая, д. 2, ТЦ «Орбита», 3 этаж</p>
+      <p><a href="tel:+79002220222" data-event="contact_click" data-contact-type="phone">+7 (900) 222-02-22</a></p>
+      <p><a href="mailto:book@respawn-club.example" data-event="contact_click" data-contact-type="email">book@respawn-club.example</a></p>
+    </div>
+    <div>
+      <p>Мы в сети</p>
+      <ul class="social-list">
+        <li><a href="https://instagram.com/respawn.nov2026" target="_blank" rel="noopener noreferrer" data-event="social_click" data-network="instagram" data-page-section="footer">Instagram</a></li>
+        <li><a href="https://vk.com/respawn_nov2026" target="_blank" rel="noopener noreferrer" data-event="social_click" data-network="vk" data-page-section="footer">ВКонтакте</a></li>
+        <li><a href="https://t.me/respawn_events" target="_blank" rel="noopener noreferrer" data-event="social_click" data-network="telegram" data-page-section="footer">Telegram</a></li>
+        <li><a href="https://youtube.com/@respawn_nov2026" target="_blank" rel="noopener noreferrer" data-event="social_click" data-network="youtube" data-page-section="footer">YouTube</a></li>
+      </ul>
+    </div>
+    <div>
+      <p><a href="privacy.html">Политика конфиденциальности</a></p>
+      <p><a href="files/club-rules.pdf">Правила клуба (PDF)</a></p>
+    </div>
+  </div>
+  <div class="wrap">
+    <p class="legal">Круглосуточно с 2023 года. Вход с 14 лет. С 22:00 до 08:00 и на ночные пакеты — только с 18 лет.</p>
+  </div>
+</footer>
+<script src="js/analytics.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/zones.js"></script>
+</body>
+</html>

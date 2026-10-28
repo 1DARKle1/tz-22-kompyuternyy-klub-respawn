@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Главная — компьютерный клуб «Респаун»</title>
+  <meta name="description" content="Круглосуточный компьютерный клуб в Новоозёрске: зоны, бронь мест и турнир «Зимний кубок». В будни до 14:00 скидка 30 %.">
+  <meta property="og:title" content="Главная — компьютерный клуб «Респаун»">
+  <meta property="og:description" content="Круглосуточный компьютерный клуб в Новоозёрске: зоны, бронь мест и турнир «Зимний кубок». В будни до 14:00 скидка 30 %.">
+  <meta property="og:image" content="img/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <link rel="icon" href="img/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;family=Orbitron:wght@600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+</head>
+<body>
+<a class="skip" href="#main">К содержанию</a>
+<header class="site-header">
+  <div class="wrap header-bar">
+    <a class="logo" href="index.html">RE<span>SPAWN</span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Меню</button>
+    <nav id="site-nav" class="site-nav" aria-label="Страницы клуба">
+      <a href="index.html" aria-current="page">Главная</a>
+      <a href="zones.html">Зоны</a>
+      <a href="prices.html">Цены</a>
+      <a href="games.html">Игры</a>
+      <a href="tournament.html">Турнир</a>
+      <a href="reaction.html">Реакция</a>
+      <a href="contacts.html">Бронь</a>
+    </nav>
+    <a class="header-phone" href="tel:+79002220222" data-event="contact_click" data-contact-type="phone">+7 (900) 222-02-22</a>
+  </div>
+</header>
+<main id="main">
+
+<section class="hero">
+  <div class="wrap">
+    <p class="discount">Будни до 14:00 −30 %</p>
+    <h1>Компьютерный клуб «Респаун»</h1>
+    <p class="lead">52 игровых места рядом с двумя вузами и колледжем. Днём в будни зал свободнее: приходи до 14:00 и бери скидку 30 %. Вечером место лучше забронировать.</p>
+    <div class="actions">
+      <a class="btn" href="contacts.html?lead_type=booking" data-event="cta_click" data-button-name="hero_booking" data-page-section="hero">Забронировать</a>
+      <a class="btn btn-ghost" href="prices.html">Считать стоимость</a>
+    </div>
+  </div>
+</section>
+<section class="block">
+  <div class="wrap">
+    <h2>Зоны</h2>
+    <ul class="zone-grid">
+      <li class="zone-card"><a href="zones.html#standard" data-event="zone_view" data-zone="standard"><img src="img/zone-standard.jpg" width="960" height="640" alt="Иллюстрация зоны Стандарт: монитор и системный блок"><h3>Стандарт</h3><p>RTX 4060, монитор 165 Гц. 40 мест в общем зале.</p><p class="price">150 ₽/час</p></a></li>
+      <li class="zone-card"><a href="zones.html#vip" data-event="zone_view" data-zone="vip"><img src="img/zone-vip.jpg" width="960" height="640" alt="Иллюстрация зоны VIP: широкий монитор и кресло"><h3>VIP</h3><p>RTX 4080, монитор 240 Гц, кресло премиум. 12 мест.</p><p class="price">250 ₽/час</p></a></li>
+      <li class="zone-card"><a href="zones.html#bootcamp" data-event="zone_view" data-zone="bootcamp"><img src="img/zone-bootcamp.jpg" width="960" height="640" alt="Иллюстрация комнаты bootcamp на пять мест"><h3>Bootcamp</h3><p>Отдельная комната на 5 человек. Цена за комнату.</p><p class="price">1 100 ₽/час</p></a></li>
+      <li class="zone-card"><a href="zones.html#ps5" data-event="zone_view" data-zone="ps5"><img src="img/zone-ps5.jpg" width="960" height="640" alt="Иллюстрация зоны PlayStation 5 с большим телевизором"><h3>PlayStation 5</h3><p>Телевизор 65 дюймов, до 4 игроков.</p><p class="price">400 ₽/час</p></a></li>
+    </ul>
+  </div>
+</section>
+<section class="block">
+  <div class="wrap panel">
+    <h2>Турнир «Зимний кубок»</h2>
+    <p>CS2, пять на пять. Отборочные онлайн 28 ноября – 13 декабря, финал в клубе 19 декабря. Взнос 2 500 ₽ с команды, призовой фонд 60 000 ₽.</p>
+    <a class="btn" href="tournament.html" data-event="tournament_view" data-tournament-id="winter_cup_2026" data-button-name="tournament_open" data-page-section="tournament">Открыть регламент</a>
+  </div>
+</section>
+<section class="block">
+  <div class="wrap">
+    <h2>Видео клуба</h2>
+    <div class="player">
+      <img src="img/video-poster.jpg" width="1280" height="720" alt="Иллюстрация общего зала компьютерного клуба Респаун">
+      <div id="video-frame" class="video-frame" hidden></div>
+      <button id="video-play" class="btn" type="button" data-event="video_play" data-video-title="club_tour">Смотреть видео</button>
+    </div>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <p class="logo">RE<span>SPAWN</span></p>
+      <p>ООО «Респаун»</p>
+      <p>614 122, г. Новоозёрск, ул. Студенческая, д. 2, ТЦ «Орбита», 3 этаж</p>
+      <p><a href="tel:+79002220222" data-event="contact_click" data-contact-type="phone">+7 (900) 222-02-22</a></p>
+      <p><a href="mailto:book@respawn-club.example" data-event="contact_click" data-contact-type="email">book@respawn-club.example</a></p>
+    </div>
+    <div>
+      <p>Мы в сети</p>
+      <ul class="social-list">
+        <li><a href="https://instagram.com/respawn.nov2026" target="_blank" rel="noopener noreferrer" data-event="social_click" data-network="instagram" data-page-section="footer">Instagram</a></li>
+        <li><a href="https://vk.com/respawn_nov2026" target="_blank" rel="noopener noreferrer" data-event="social_click" data-network="vk" data-page-section="footer">ВКонтакте</a></li>
+        <li><a href="https://t.me/respawn_events" target="_blank" rel="noopener noreferrer" data-event="social_click" data-network="telegram" data-page-section="footer">Telegram</a></li>
+        <li><a href="https://youtube.com/@respawn_nov2026" target="_blank" rel="noopener noreferrer" data-event="social_click" data-network="youtube" data-page-section="footer">YouTube</a></li>
+      </ul>
+    </div>
+    <div>
+      <p><a href="privacy.html">Политика конфиденциальности</a></p>
+      <p><a href="files/club-rules.pdf">Правила клуба (PDF)</a></p>
+    </div>
+  </div>
+  <div class="wrap">
+    <p class="legal">Круглосуточно с 2023 года. Вход с 14 лет. С 22:00 до 08:00 и на ночные пакеты — только с 18 лет.</p>
+  </div>
+</footer>
+<script src="js/analytics.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/video.js"></script>
+</body>
+</html>
