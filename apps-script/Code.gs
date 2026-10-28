@@ -1,6 +1,6 @@
 // Основа — приёмник темы 7. Столбцы и проверки взяты из ТЗ-22.
 // Вставьте ID таблицы: между /d/ и /edit в адресе Google Таблицы.
-const SPREADSHEET_ID = 'PASTE_YOUR_SPREADSHEET_ID';
+const SPREADSHEET_ID = '1sHCGIhZ2wq1ZJdKnhP62sW-71NDAfoG3W1bdWmllyOc';
 const HEADERS = [
   'request_id', 'created_at', 'name', 'phone', 'email', 'lead_type', 'zone',
   'slot', 'seats', 'utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'status'
